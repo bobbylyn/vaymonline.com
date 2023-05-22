@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="">
+        <title>Vaymonline</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header"> 
+            <nav>
+                <a href="index.html"><img src="images/VAYM Logo.png" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">ministries</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>More Than Conquerors!</h1>
+                <p>Soldiers of light Walking in faith and love for christ,<br>LIVE IT LOVE IT.</p>
+                <a href=""class="hero-btn">Visit us to know more</a>
+            </div>
+
+        </section>
+
+        <!-----Ministries----->
+        <section class="Ministries">
+            <h1>Ministries</h1>
+            <p>The Seventh-day Adventist Church youth ministries.</p>
+
+            <div class="row">
+                <div class="Ministries-col">
+                    <img src="images/Adventurers_logo-removebg-preview.png">
+                    <h3>ADVENTURERS</h3>
+                    <p>The volunteer leadership attend special training sessions to understand how to maximize 
+                    the focus of the Adventurer Club in strengthening the parent-child bonds and enable both 
+                    parents and children to understand their relationship to God. </p>
+                    <div>
+                        <button type="button"><span></span>READ MORE</button>
+                    </div>
+                </div>
+                <div class="Ministries-col">
+                    <img src="images/Pathfinders logo.png">
+                    <h3>PATHFINDERS</h3>
+                    <p>Enlarging their windows to the world and building a relationship with God are 
+                    the dual objectives of this club designed for children ages 10-15.</p>
+                    <div>
+                        <button type="button"><span></span>READ MORE</button>
+                    </div>
+                </div>
+                <div class="Ministries-col">
+                    <img src="images/master_guide_logo-removebg-preview.png">
+                    <h3>MASTER GUIDES</h3>
+                    <p>The story of the Adventist Youth Society began over 125 years ago along a dusty country lane in 
+                    Michigan with two young boys kneeling in prayer and today serves ages 21-30.</p>
+                    <div>
+                        <button type="button"><span></span>READ MORE</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!------Call To Action------>
+
+        <section class="cta">
+            <h1>VAYMONLINE.org is the website of the Youth Department <br>of the 
+            Pioneer Seventh-day Adventist Church, Nigeria.</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!-----footer-------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <P>servant of God and friend to man</P>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+            <p>Made with<i class="fa fa-heart-o"></i> by Izzy</p>
+        </section>
+
+
+
+        <!------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+
+    </body>
+</html>
